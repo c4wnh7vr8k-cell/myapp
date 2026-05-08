@@ -15,7 +15,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
-          cashe: true
+          cache: true
 
       - run: flutter pub get
 
